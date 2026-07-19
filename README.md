@@ -4,9 +4,32 @@
   Know exactly what to buy, when to average down, and when to book profit.
 </p>
 <p align="center">
-  <img src="https://img.shields.io/badge/version-1.4.0-blue?style=flat-square" alt="Version" />
-  <img src="https://img.shields.io/badge/platform-Android-green?style=flat-square" alt="Platform" />
+  <img src="https://img.shields.io/badge/version-1.8.1-blue?style=flat-square" alt="Version" />
+  <img src="https://img.shields.io/badge/platform-Android%20%7C%20iOS-green?style=flat-square" alt="Platform" />
 </p>
+
+<!-- ARANYA_CURRENT_RELEASE_START -->
+## 📥 Latest Release: v1.8.1
+
+### More dependable daily trading
+
+This patch makes prices, order guidance, account recovery, and market-data updates more reliable.
+
+#### What's new
+
+- Live prices and market status recover more smoothly after network interruptions or when the app resumes.
+- Buy and sell tickets now use safer quantity and amount calculations, with clearer guidance before an order is recorded.
+- Opportunity cards show prices, quantities, order values, and market-data confidence more consistently for stocks and crypto.
+- End-of-day market data repair is more resilient and gives clearer feedback when an update needs attention.
+- Password reset, sign-in recovery, and app-version checks now handle interrupted or expired sessions more reliably.
+- Improved navigation, analytics, notification health, and responsiveness across everyday workflows.
+
+### [⬇️ Download Aranya 1.8.1 APK](https://github.com/aranyablackboxcapitals/aranya-releases/releases/download/v1.8.1/aranya-1.8.1.apk)
+
+This public repository contains only the direct-install Android APK. The Google Play AAB and Apple IPA are sent privately to their respective stores.
+
+[View this release and its notes](https://github.com/aranyablackboxcapitals/aranya-releases/releases/tag/v1.8.1)
+<!-- ARANYA_CURRENT_RELEASE_END -->
 
 ## 🤔 What is Aranya?
 Investing in Indian stocks shouldn't require staring at charts all day or second-guessing every decision. **Aranya** is a mobile app that removes the guesswork from stock trading by giving you a clear, rule-based system:
@@ -102,5 +125,5 @@ Have questions or feedback? Reach out to us — we'd love to hear from you.
 ---
 <p align="center">
   Built with ❤️ for Indian traders<br/>
-  <sub>Aranya v1.4.0</sub>
+  <sub>Aranya v1.8.1</sub>
 </p>
