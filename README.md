@@ -4,29 +4,30 @@
   Know exactly what to buy, when to average down, and when to book profit.
 </p>
 <p align="center">
-  <img src="https://img.shields.io/badge/version-1.8.4-blue?style=flat-square" alt="Version" />
+  <img src="https://img.shields.io/badge/version-1.8.5-blue?style=flat-square" alt="Version" />
   <img src="https://img.shields.io/badge/platform-Android%20%7C%20iOS-green?style=flat-square" alt="Platform" />
 </p>
 
 <!-- ARANYA_CURRENT_RELEASE_START -->
-## 📥 Latest Release: v1.8.4
+## 📥 Latest Release: v1.8.5
 
-### Safer simulations and steadier decisions
+### Smarter simulations and easier guidance
 
-This update makes investment decisions easier to verify while improving live workflows across Aranya.
+This update makes Aranya easier to learn and more dependable when you review strategies, alerts, and historical results.
 
 #### What's new
 
-- Strategy Lab now keeps suspected price-history events reviewable, with clear choices for verified ratios, genuine market moves, and data issues.
-- Simulation results now separate Calendar SIP contributions from strategy capital and show clearer profit, value, and cost breakdowns.
-- Holdings and Opportunities keep actionable signals fresher during live updates and notification journeys.
-- Startup, strategy switching, market-data status, and notification repair are more dependable.
+- Strategy Lab now handles likely stock splits and bonus issues automatically, while still letting you choose to review every flagged price event yourself.
+- Saved simulation results open more reliably and explain returns, holding periods, costs, and important price adjustments more clearly.
+- Guided tours now offer more step-by-step help for setting up and using Equity and Crypto Rotation strategies.
+- Notifications and alerts now return you to the right screen more reliably and explain more clearly when something needs your attention.
+- Notifications, strategy switching, profile totals, and recovery after connection problems are now more consistent.
 
-### [⬇️ Download Aranya 1.8.4 APK](https://github.com/aranyablackboxcapitals/aranya-releases/releases/download/v1.8.4/aranya-1.8.4.apk)
+### [⬇️ Download Aranya 1.8.5 APK](https://github.com/aranyablackboxcapitals/aranya-releases/releases/download/v1.8.5/aranya-1.8.5.apk)
 
 This public repository contains only the direct-install Android APK. The Google Play AAB and Apple IPA are sent privately to their respective stores.
 
-[View this release and its notes](https://github.com/aranyablackboxcapitals/aranya-releases/releases/tag/v1.8.4)
+[View this release and its notes](https://github.com/aranyablackboxcapitals/aranya-releases/releases/tag/v1.8.5)
 <!-- ARANYA_CURRENT_RELEASE_END -->
 
 ## 🤔 What is Aranya?
@@ -123,5 +124,5 @@ Have questions or feedback? Reach out to us — we'd love to hear from you.
 ---
 <p align="center">
   Built with ❤️ for Indian traders<br/>
-  <sub>Aranya v1.8.4</sub>
+  <sub>Aranya v1.8.5</sub>
 </p>
