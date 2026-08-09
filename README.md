@@ -4,30 +4,30 @@
   Know exactly what to buy, when to average down, and when to book profit.
 </p>
 <p align="center">
-  <img src="https://img.shields.io/badge/version-1.8.5-blue?style=flat-square" alt="Version" />
+  <img src="https://img.shields.io/badge/version-1.8.6-blue?style=flat-square" alt="Version" />
   <img src="https://img.shields.io/badge/platform-Android%20%7C%20iOS-green?style=flat-square" alt="Platform" />
 </p>
 
 <!-- ARANYA_CURRENT_RELEASE_START -->
-## 📥 Latest Release: v1.8.5
+## 📥 Latest Release: v1.8.6
 
-### Smarter simulations and easier guidance
+### Crypto for everyone, with steadier live updates
 
-This update makes Aranya easier to learn and more dependable when you review strategies, alerts, and historical results.
+This update opens Crypto Rotation to everyone and makes live information more dependable while you move in and out of Aranya.
 
 #### What's new
 
-- Strategy Lab now handles likely stock splits and bonus issues automatically, while still letting you choose to review every flagged price event yourself.
-- Saved simulation results open more reliably and explain returns, holding periods, costs, and important price adjustments more clearly.
-- Guided tours now offer more step-by-step help for setting up and using Equity and Crypto Rotation strategies.
-- Notifications and alerts now return you to the right screen more reliably and explain more clearly when something needs your attention.
-- Notifications, strategy switching, profile totals, and recovery after connection problems are now more consistent.
+- Crypto Rotation is now available to every Aranya user, with an Experimental label in the Universe picker so you can easily identify the experience that is still being refined.
+- Live prices now connect only when a screen needs them, helping reduce unnecessary battery and data use.
+- Market and portfolio updates pause cleanly in the background and resume when you return, keeping the app responsive and information fresh.
+- Buy and sell confirmations now stop safely when an opportunity has expired, then refresh so you can act on the latest guidance.
+- Continuum Delta-Harvest remains a limited preview and stays unavailable to standard accounts for now.
 
-### [⬇️ Download Aranya 1.8.5 APK](https://github.com/aranyablackboxcapitals/aranya-releases/releases/download/v1.8.5/aranya-1.8.5.apk)
+### [⬇️ Download Aranya 1.8.6 APK](https://github.com/aranyablackboxcapitals/aranya-releases/releases/download/v1.8.6/aranya-1.8.6.apk)
 
 This public repository contains only the direct-install Android APK. The Google Play AAB and Apple IPA are sent privately to their respective stores.
 
-[View this release and its notes](https://github.com/aranyablackboxcapitals/aranya-releases/releases/tag/v1.8.5)
+[View this release and its notes](https://github.com/aranyablackboxcapitals/aranya-releases/releases/tag/v1.8.6)
 <!-- ARANYA_CURRENT_RELEASE_END -->
 
 ## 🤔 What is Aranya?
@@ -124,5 +124,5 @@ Have questions or feedback? Reach out to us — we'd love to hear from you.
 ---
 <p align="center">
   Built with ❤️ for Indian traders<br/>
-  <sub>Aranya v1.8.5</sub>
+  <sub>Aranya v1.8.6</sub>
 </p>
