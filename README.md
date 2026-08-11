@@ -4,30 +4,29 @@
   Know exactly what to buy, when to average down, and when to book profit.
 </p>
 <p align="center">
-  <img src="https://img.shields.io/badge/version-1.8.6-blue?style=flat-square" alt="Version" />
+  <img src="https://img.shields.io/badge/version-1.8.7-blue?style=flat-square" alt="Version" />
   <img src="https://img.shields.io/badge/platform-Android%20%7C%20iOS-green?style=flat-square" alt="Platform" />
 </p>
 
 <!-- ARANYA_CURRENT_RELEASE_START -->
-## 📥 Latest Release: v1.8.6
+## 📥 Latest Release: v1.8.7
 
-### Crypto for everyone, with steadier live updates
+### A smoother, more reliable Aranya
 
-This update opens Crypto Rotation to everyone and makes live information more dependable while you move in and out of Aranya.
+This update focuses on the small details that make Aranya feel faster, steadier, and more dependable every day.
 
 #### What's new
 
-- Crypto Rotation is now available to every Aranya user, with an Experimental label in the Universe picker so you can easily identify the experience that is still being refined.
-- Live prices now connect only when a screen needs them, helping reduce unnecessary battery and data use.
-- Market and portfolio updates pause cleanly in the background and resume when you return, keeping the app responsive and information fresh.
-- Buy and sell confirmations now stop safely when an opportunity has expired, then refresh so you can act on the latest guidance.
-- Continuum Delta-Harvest remains a limited preview and stays unavailable to standard accounts for now.
+- Improved responsiveness across the app for a smoother day-to-day experience.
+- Strengthened stability to reduce interruptions and keep key flows working reliably.
+- Refined background performance so the app uses resources more efficiently.
+- Fixed smaller issues throughout the app and polished the overall experience.
 
-### [⬇️ Download Aranya 1.8.6 APK](https://github.com/aranyablackboxcapitals/aranya-releases/releases/download/v1.8.6/aranya-1.8.6.apk)
+### [⬇️ Download Aranya 1.8.7 APK](https://github.com/aranyablackboxcapitals/aranya-releases/releases/download/v1.8.7/aranya-1.8.7.apk)
 
 This public repository contains only the direct-install Android APK. The Google Play AAB and Apple IPA are sent privately to their respective stores.
 
-[View this release and its notes](https://github.com/aranyablackboxcapitals/aranya-releases/releases/tag/v1.8.6)
+[View this release and its notes](https://github.com/aranyablackboxcapitals/aranya-releases/releases/tag/v1.8.7)
 <!-- ARANYA_CURRENT_RELEASE_END -->
 
 ## 🤔 What is Aranya?
@@ -124,5 +123,5 @@ Have questions or feedback? Reach out to us — we'd love to hear from you.
 ---
 <p align="center">
   Built with ❤️ for Indian traders<br/>
-  <sub>Aranya v1.8.6</sub>
+  <sub>Aranya v1.8.7</sub>
 </p>
