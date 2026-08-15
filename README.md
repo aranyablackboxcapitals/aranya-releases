@@ -4,31 +4,28 @@
   Know exactly what to buy, when to average down, and when to book profit.
 </p>
 <p align="center">
-  <img src="https://img.shields.io/badge/version-1.9.0-blue?style=flat-square" alt="Version" />
+  <img src="https://img.shields.io/badge/version-1.9.3-blue?style=flat-square" alt="Version" />
   <img src="https://img.shields.io/badge/platform-Android%20%7C%20iOS-green?style=flat-square" alt="Platform" />
 </p>
 
 <!-- ARANYA_CURRENT_RELEASE_START -->
-## 📥 Latest Release: v1.9.0
+## 📥 Latest Release: v1.9.3
 
-### Clearer decisions, better guidance
+### More reliable notifications
 
-This update makes everyday investing workflows easier to understand, with refreshed screens, more useful guidance, and clearer review steps before you act.
+This update makes notification delivery easier to verify and automatically repairs stale device registration when possible.
 
 #### What's new
 
-- Dashboard, Picks, Portfolio, Logs, and Settings have been refreshed to surface readiness, portfolio health, and next steps more clearly.
-- Notifications are easier to manage with clearer action status, search, history, and direct links to the latest state.
-- Help and guided tours now adapt to your strategy, with searchable learning chapters and more reliable walkthroughs.
-- Strategy Lab has a clearer four-step setup, stronger review screens, improved history, and more transparent data and assumption details.
-- Capital, rule, order-recording, onboarding, and subscription screens now explain consequences and confirmation steps more clearly.
-- Improved Hindi coverage, accessibility, compact-phone layouts, performance, and overall reliability.
+- Push notification registration now self-recovers when an installed device token changes or becomes stale.
+- Settings now explains notification reachability and provides clearer steps when delivery needs attention.
+- Notification opens and foreground handling are more consistent across supported devices.
 
-### [⬇️ Download Aranya 1.9.0 APK](https://github.com/aranyablackboxcapitals/aranya-releases/releases/download/v1.9.0/aranya-1.9.0.apk)
+### [⬇️ Download Aranya 1.9.3 APK](https://github.com/aranyablackboxcapitals/aranya-releases/releases/download/v1.9.3/aranya-1.9.3.apk)
 
 This public repository contains only the direct-install Android APK. The Google Play AAB and Apple IPA are sent privately to their respective stores.
 
-[View this release and its notes](https://github.com/aranyablackboxcapitals/aranya-releases/releases/tag/v1.9.0)
+[View this release and its notes](https://github.com/aranyablackboxcapitals/aranya-releases/releases/tag/v1.9.3)
 <!-- ARANYA_CURRENT_RELEASE_END -->
 
 ## 🤔 What is Aranya?
@@ -125,5 +122,5 @@ Have questions or feedback? Reach out to us — we'd love to hear from you.
 ---
 <p align="center">
   Built with ❤️ for Indian traders<br/>
-  <sub>Aranya v1.9.0</sub>
+  <sub>Aranya v1.9.3</sub>
 </p>
