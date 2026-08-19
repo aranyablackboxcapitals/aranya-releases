@@ -4,28 +4,28 @@
   Know exactly what to buy, when to average down, and when to book profit.
 </p>
 <p align="center">
-  <img src="https://img.shields.io/badge/version-1.9.3-blue?style=flat-square" alt="Version" />
+  <img src="https://img.shields.io/badge/version-1.9.5-blue?style=flat-square" alt="Version" />
   <img src="https://img.shields.io/badge/platform-Android%20%7C%20iOS-green?style=flat-square" alt="Platform" />
 </p>
 
 <!-- ARANYA_CURRENT_RELEASE_START -->
-## 📥 Latest Release: v1.9.3
+## 📥 Latest Release: v1.9.5
 
-### More reliable notifications
+### Required platform upgrade
 
-This update makes notification delivery easier to verify and automatically repairs stale device registration when possible.
+This required update moves Aranya to its new production foundation. Earlier app builds are no longer supported.
 
 #### What's new
 
-- Push notification registration now self-recovers when an installed device token changes or becomes stale.
-- Settings now explains notification reachability and provides clearer steps when delivery needs attention.
-- Notification opens and foreground handling are more consistent across supported devices.
+- Improved reliability across app startup, live data, and background recovery.
+- Added clearer update guidance when an older app build can no longer connect.
+- Strengthened release verification so downloads are published only after required services are ready.
 
-### [⬇️ Download Aranya 1.9.3 APK](https://github.com/aranyablackboxcapitals/aranya-releases/releases/download/v1.9.3/aranya-1.9.3.apk)
+### [⬇️ Download Aranya 1.9.5 APK](https://github.com/aranyablackboxcapitals/aranya-releases/releases/download/v1.9.5/aranya-1.9.5.apk)
 
 This public repository contains only the direct-install Android APK. The Google Play AAB and Apple IPA are sent privately to their respective stores.
 
-[View this release and its notes](https://github.com/aranyablackboxcapitals/aranya-releases/releases/tag/v1.9.3)
+[View this release and its notes](https://github.com/aranyablackboxcapitals/aranya-releases/releases/tag/v1.9.5)
 <!-- ARANYA_CURRENT_RELEASE_END -->
 
 ## 🤔 What is Aranya?
@@ -122,5 +122,5 @@ Have questions or feedback? Reach out to us — we'd love to hear from you.
 ---
 <p align="center">
   Built with ❤️ for Indian traders<br/>
-  <sub>Aranya v1.9.3</sub>
+  <sub>Aranya v1.9.5</sub>
 </p>
