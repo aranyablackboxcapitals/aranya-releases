@@ -4,28 +4,28 @@
   Know exactly what to buy, when to average down, and when to book profit.
 </p>
 <p align="center">
-  <img src="https://img.shields.io/badge/version-1.9.5-blue?style=flat-square" alt="Version" />
+  <img src="https://img.shields.io/badge/version-1.9.6-blue?style=flat-square" alt="Version" />
   <img src="https://img.shields.io/badge/platform-Android%20%7C%20iOS-green?style=flat-square" alt="Platform" />
 </p>
 
 <!-- ARANYA_CURRENT_RELEASE_START -->
-## 📥 Latest Release: v1.9.5
+## 📥 Latest Release: v1.9.6
 
-### Required platform upgrade
+### A steadier connection to Aranya
 
-This required update moves Aranya to its new production foundation. Earlier app builds are no longer supported.
+This update improves recovery and keeps the app aligned with Aranya's current platform contracts.
 
 #### What's new
 
-- Improved reliability across app startup, live data, and background recovery.
-- Added clearer update guidance when an older app build can no longer connect.
-- Strengthened release verification so downloads are published only after required services are ready.
+- Improved recovery when live data or network connections are interrupted.
+- Strengthened account, strategy, and backtest data compatibility with the latest platform APIs.
+- Improved subscription-state synchronization and purchase recovery.
 
-### [⬇️ Download Aranya 1.9.5 APK](https://github.com/aranyablackboxcapitals/aranya-releases/releases/download/v1.9.5/aranya-1.9.5.apk)
+### [⬇️ Download Aranya 1.9.6 APK](https://github.com/aranyablackboxcapitals/aranya-releases/releases/download/v1.9.6/aranya-1.9.6.apk)
 
 This public repository contains only the direct-install Android APK. The Google Play AAB and Apple IPA are sent privately to their respective stores.
 
-[View this release and its notes](https://github.com/aranyablackboxcapitals/aranya-releases/releases/tag/v1.9.5)
+[View this release and its notes](https://github.com/aranyablackboxcapitals/aranya-releases/releases/tag/v1.9.6)
 <!-- ARANYA_CURRENT_RELEASE_END -->
 
 ## 🤔 What is Aranya?
@@ -122,5 +122,5 @@ Have questions or feedback? Reach out to us — we'd love to hear from you.
 ---
 <p align="center">
   Built with ❤️ for Indian traders<br/>
-  <sub>Aranya v1.9.5</sub>
+  <sub>Aranya v1.9.6</sub>
 </p>
