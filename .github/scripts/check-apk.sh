@@ -18,7 +18,7 @@ fi
 signers() {
   local certs
   certs=$("$tools/apksigner" verify --print-certs "$1")
-  sed -n 's/^Signer #[0-9]* certificate SHA-256 digest: //p' <<<"$certs" | sort
+  sed -nE 's/^[^:]*Signer[^:]*:? certificate SHA-256 digest: ([[:xdigit:]]{64})$/\1/p' <<<"$certs" | sort -u
 }
 actual=$(signers "$apk")
 expected=$(signers "$reference")
