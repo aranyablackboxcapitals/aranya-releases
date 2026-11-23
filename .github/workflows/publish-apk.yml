@@ -1,0 +1,69 @@
+name: Verify and publish Android APK
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: Stable release tag, such as v2.0.0
+        required: true
+        type: string
+      publish:
+        description: Publish the verified draft as the latest public release
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+
+concurrency:
+  group: aranya-public-apk
+  cancel-in-progress: false
+
+jobs:
+  release:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    env:
+      GH_TOKEN: ${{ github.token }}
+      TAG: ${{ inputs.tag }}
+      PUBLISH: ${{ inputs.publish }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify release and APK
+        shell: bash
+        run: |
+          set -euo pipefail
+          [[ "$TAG" =~ ^v(0|[1-9][0-9]*)[.](0|[1-9][0-9]*)[.](0|[1-9][0-9]*)$ ]]
+          latest=$(gh api "repos/$GITHUB_REPOSITORY/releases/latest" --jq .tag_name)
+          release=$(gh release view "$TAG" --json isDraft,isPrerelease,assets)
+          asset="aranya-${TAG#v}.apk"
+          jq -e --arg asset "$asset" '
+            (.isPrerelease | not) and
+            (.assets | length == 1) and
+            (.assets[0] | .name == $asset and .size > 0)
+          ' <<<"$release" >/dev/null
+          if [[ "$PUBLISH" == true ]]; then
+            jq -e '.isDraft' <<<"$release" >/dev/null
+          fi
+
+          candidate=$(mktemp -d)
+          reference=$(mktemp -d)
+          gh release download "$TAG" --pattern "$asset" --dir "$candidate"
+          gh release download "$latest" --pattern "aranya-${latest#v}.apk" --dir "$reference"
+          ANDROID_BUILD_TOOLS=$(find "${ANDROID_HOME:?}/build-tools" -name apksigner -type f | sort -V | tail -n 1 | xargs -r dirname)
+          export ANDROID_BUILD_TOOLS
+          if [[ "$TAG" == "$latest" && "$PUBLISH" == false ]]; then
+            export REQUIRE_NEWER=0
+          fi
+          bash .github/scripts/check-apk.sh "$candidate/$asset" "${TAG#v}" "$reference/aranya-${latest#v}.apk"
+
+          if [[ "$PUBLISH" == true ]]; then
+            [[ $(printf '%s\n%s\n' "${TAG#v}" "${latest#v}" | sort -V | tail -n 1) == "${TAG#v}" && "$TAG" != "$latest" ]]
+            # Recheck the draft and asset before the public switch.
+            [[ $(gh release view "$TAG" --json isDraft,isPrerelease,assets) == "$release" ]]
+            [[ $(gh api "repos/$GITHUB_REPOSITORY/releases/latest" --jq .tag_name) == "$latest" ]]
+            gh release edit "$TAG" --draft=false --latest
+            [[ $(gh api "repos/$GITHUB_REPOSITORY/releases/latest" --jq .tag_name) == "$TAG" ]]
+            curl --fail --silent --show-error --head "https://github.com/$GITHUB_REPOSITORY/releases/download/$TAG/$asset" >/dev/null
+          fi

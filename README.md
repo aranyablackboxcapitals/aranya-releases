@@ -4,29 +4,21 @@
   Know exactly what to buy, when to average down, and when to book profit.
 </p>
 <p align="center">
-  <img src="https://img.shields.io/badge/version-1.9.6-blue?style=flat-square" alt="Version" />
+  <img src="https://img.shields.io/github/v/release/aranyablackboxcapitals/aranya-releases?style=flat-square" alt="Version" />
   <img src="https://img.shields.io/badge/platform-Android%20%7C%20iOS-green?style=flat-square" alt="Platform" />
 </p>
 
-<!-- ARANYA_CURRENT_RELEASE_START -->
-## 📥 Latest Release: v1.9.6
+## Download Aranya for Android
 
-### A steadier connection to Aranya
+[Open the latest APK release](https://github.com/aranyablackboxcapitals/aranya-releases/releases/latest) and select the `aranya-<version>.apk` asset. The release page lists the version and release notes. The Google Play AAB and Apple IPA are distributed separately.
 
-This update improves recovery and keeps the app aligned with Aranya's current platform contracts.
+### Publishing a new APK
 
-#### What's new
+1. Build from the private app repository with `eas build --platform android --profile public-apk`. Verify the signed APK against production before staging it.
+2. Create a draft GitHub release with a stable `vX.Y.Z` tag. Upload the approved, signed direct-install APK as `aranya-X.Y.Z.apk`.
+3. Run **Verify and publish Android APK** with that tag. Leave **publish** unchecked for verification only, or check it to publish the verified draft as the latest public release.
+4. The website reads the latest public release automatically. No README version edit or website rebuild is needed for each APK.
 
-- Improved recovery when live data or network connections are interrupted.
-- Strengthened account, strategy, and backtest data compatibility with the latest platform APIs.
-- Improved subscription-state synchronization and purchase recovery.
-
-### [⬇️ Download Aranya 1.9.6 APK](https://github.com/aranyablackboxcapitals/aranya-releases/releases/download/v1.9.6/aranya-1.9.6.apk)
-
-This public repository contains only the direct-install Android APK. The Google Play AAB and Apple IPA are sent privately to their respective stores.
-
-[View this release and its notes](https://github.com/aranyablackboxcapitals/aranya-releases/releases/tag/v1.9.6)
-<!-- ARANYA_CURRENT_RELEASE_END -->
 
 ## 🤔 What is Aranya?
 Investing in Indian stocks shouldn't require staring at charts all day or second-guessing every decision. **Aranya** is a mobile app that removes the guesswork from stock trading by giving you a clear, rule-based system:
@@ -122,5 +114,4 @@ Have questions or feedback? Reach out to us — we'd love to hear from you.
 ---
 <p align="center">
   Built with ❤️ for Indian traders<br/>
-  <sub>Aranya v1.9.6</sub>
 </p>
